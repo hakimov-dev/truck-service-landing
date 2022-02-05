@@ -6,8 +6,8 @@
                 <button><i class="fas fa-chevron-left"></i></button>
                 <button><i class="fas fa-chevron-right"></i></button>
               </div>
-            <h1>
-               {{counter}}
+            <h1 class="pt-16 text-center text-9xl">
+               0{{counter}}
             </h1>
             </div>
            <div class="parrent">
