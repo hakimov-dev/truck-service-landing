@@ -13,6 +13,12 @@ export default {
   name: 'Content',
   components: {
     Card
+  },
+
+  data () {
+    return {
+     
+    }
   }
 }
 </script>
