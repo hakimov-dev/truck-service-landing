@@ -41,7 +41,11 @@ export default {
     },
 
     next () {
-      
+      if (this.counter !== 2) {
+        this.counter++
+        const slider = document.querySelector('.slider')
+        slider.style.marginLeft = '-0px'
+      }
     }
   }
 }
