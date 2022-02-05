@@ -11,11 +11,11 @@
             </h1>
             </div>
             <div class="slider-images">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="@/assets/img/slider-1.png" alt="">
+                <img src="@/assets/img/slider-2.png" alt="">
+                <img src="@/assets/img/slider-3.png" alt="">
+                <img src="@/assets/img/slider-4.png" alt="">
+                <img src="@/assets/img/slider-5.png" alt="">
             </div>
         </div>
     </div>
