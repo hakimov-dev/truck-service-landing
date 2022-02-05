@@ -4,8 +4,8 @@
     <div class="container">
       <div class="main-content">
          <div class="content-1">
-             <h1>Yuklarmi?</h1>
-             <h2>Biz bila aloqaga chiqing</h2>
+             <h1 class="text-6xl font-semibold">Yuklarmi?</h1>
+             <h2 class="text-4xl font-semibold">Biz bila aloqaga chiqing</h2>
          </div>
       </div>
     </div>
