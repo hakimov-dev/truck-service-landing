@@ -1,11 +1,13 @@
 <template>
-    <div>
-       <h1>This is header page!</h1>
-    </div>
+       <Navbar/>
 </template>
 
 <script>
+import Navbar from './components/Navbar'
 export default {
-  name: 'Header'
+  name: 'Header',
+  components: {
+    Navbar
+  }
 }
 </script>
