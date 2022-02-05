@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-    <div class="navbar flex justify-between items-center py-8">
+    <div class="navbar flex justify-between items-center">
        <h1 class="logo">Logo</h1>
        <div class="links w-2/4 flex justify-between items-center">
            <a href="#" class="link">Asosiy</a>
@@ -20,6 +20,11 @@ export default {
 </script>
 
 <style soped>
+.navbar{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
  .links{
      color: #113873;
      font-size: 16px;

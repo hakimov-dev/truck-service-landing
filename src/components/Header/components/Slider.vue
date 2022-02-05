@@ -10,13 +10,14 @@
                {{counter}}
             </h1>
             </div>
-            <div class="slider-images flex justify-between items-center overflow-hidden">
+           <div class="parrent">
+            <div class="slider-images flex justify-between items-center">
                 <img src="@/assets/img/slider-1.png" alt="">
                 <img src="@/assets/img/slider-2.png" alt="">
                 <img src="@/assets/img/slider-3.png" alt="">
                 <img src="@/assets/img/slider-4.png" alt="">
-                <img src="@/assets/img/slider-5.png" alt="">
             </div>
+           </div>
         </div>
     </div>
 </template>
@@ -26,7 +27,7 @@ export default {
   name: 'slider',
   data () {
     return {
-      counter: 0
+      counter: 1
     }
   }
 }
@@ -35,6 +36,7 @@ export default {
 <style scoped>
 .slider{
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 button{
     width: 65px;
@@ -54,10 +56,14 @@ img{
     margin: 0px 10px;
     margin-bottom: 10px;
 }
-.slider-images{
+.parrent{
+    position: relative;
     width: 1000px;
-    position: absolute;
-    right: -0px;
-    transition: .8s linear;
+    height: 350px;
+    overflow: hidden;
+}
+.slider-images{
+    margin-left:-0px ;
+    transition: all.8s linear;
 }
 </style>
