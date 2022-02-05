@@ -1,8 +1,8 @@
 <template>
     <div class="container">
-    <div class="navbar flex justify-between items-center">
+    <div class="navbar flex justify-between items-center py-8">
        <h1 class="logo">Logo</h1>
-       <div class="links">
+       <div class="links w-2/4 flex justify-between items-center">
            <a href="#" class="link">Asosiy</a>
            <a href="#weWork" class="link">Biz qanday ishlaymiz</a>
            <a href="#weWhatDo" class="link">Biz nima qilamiz</a>
