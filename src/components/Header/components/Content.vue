@@ -4,7 +4,8 @@
     <div class="container">
       <div class="main-content">
          <div class="content-1">
-             
+             <h1>Yuklarmi?</h1>
+             <h2>Biz bila aloqaga chiqing</h2>
          </div>
       </div>
     </div>
