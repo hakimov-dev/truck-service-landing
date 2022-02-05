@@ -3,7 +3,7 @@
         <div class="slider">
             <div class="slider-content">
                <div class="slider-btns">
-                <button><i class="fas fa-chevron-right"></i></button>
+                <button><i class="fas fa-chevron-left"></i></button>
                 <button><i class="fas fa-chevron-right"></i></button>
               </div>
             <h1>
