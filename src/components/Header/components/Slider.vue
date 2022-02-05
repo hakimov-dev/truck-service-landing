@@ -75,7 +75,9 @@ img{
     margin-bottom: 10px;
 }
 .parrent{
-    position: relative;
+    position: absolute;
+    right: -0px;
+    bottom: 2%;
     width: 1000px;
     height: 350px;
     overflow: hidden;
