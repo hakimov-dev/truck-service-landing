@@ -20,6 +20,8 @@
            </div>
         </div>
     </div>
+    <img src="@/assets/img/slider-bottom-1.png" alt="">
+    <img src="@/assets/img/slider-bottom-2.png" alt="">
 </template>
 
 <script>
@@ -68,7 +70,7 @@ button{
 button:hover, button:focus{
      background: #DEF7FF;
 }
-img{
+.slider-images img{
    width: 600px;
     height: 350px;
     margin: 0px 10px;
