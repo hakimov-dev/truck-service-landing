@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style scoped>
+.slider{
+    margin-top: 30px;
+}
 button{
     width: 65px;
     height: 65px;
