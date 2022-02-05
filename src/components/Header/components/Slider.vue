@@ -34,7 +34,14 @@ export default {
 
 <style scoped>
 img{
-   width: 580px;
+   width: 600px;
     height: 350px;
+    margin: 0px 10px;
+}
+.slider-images{
+    width: 1000px;
+    position: absolute;
+    right: -0px;
+    transition: .8s linear;
 }
 </style>
