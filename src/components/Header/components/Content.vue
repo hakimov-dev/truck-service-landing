@@ -30,8 +30,4 @@ export default {
       z-index: -1111;
   }
 
-  .content-1{
-      position: absolute;
-      top: 25%;
-  }
 </style>
