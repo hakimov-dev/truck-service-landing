@@ -36,7 +36,7 @@ export default {
       if (this.counter !== 1) {
         this.counter--
         const slider = document.querySelector('.slider-images')
-        slider.style.marginLeft = '-1200px'
+        slider.style.marginLeft = '-0px'
       }
     },
 
@@ -44,7 +44,7 @@ export default {
       if (this.counter !== 2) {
         this.counter++
         const slider = document.querySelector('.slider-images')
-        slider.style.marginLeft = '-0px'
+        slider.style.marginLeft = '-1200px'
       }
     }
   }
