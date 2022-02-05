@@ -18,7 +18,21 @@ export default {
   data () {
     return {
       cards: [
-        
+        {
+          img: '@/assets/img/card-1',
+          title: 'Biz og’ir yuklaringizni olamiz',
+          body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in facilisi praesent at magna. In pellentesque hac eget gravida'
+        },
+        {
+          img: '@/assets/img/card-2',
+          title: 'Tezkor va xafsiz olib boramiz',
+          body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in facilisi praesent at magna. In pellentesque hac eget gravida'
+        },
+        {
+          img: '@/assets/img/card-1',
+          title: 'Aytilgan joyga eltamiz',
+          body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in facilisi praesent at magna. In pellentesque hac eget gravida'
+        }
       ]
     }
   }
