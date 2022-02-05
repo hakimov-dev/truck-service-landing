@@ -7,7 +7,7 @@
            <a href="#weWork" class="link">Biz qanday ishlaymiz</a>
            <a href="#weWhatDo" class="link">Biz nima qilamiz</a>
            <a href="#about" class="link">Biz haqimizda</a>
-           <a href="#contact">Aloqaga chiqish</a>
+           <a href="#contact" class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></a>
        </div>
     </div>
     </div>
