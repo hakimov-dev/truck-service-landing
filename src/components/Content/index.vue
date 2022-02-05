@@ -1,6 +1,6 @@
 <template>
-    <div class="main-content">
-      <h1>This is Content component!</h1>
+    <div id="weWork" class="main-content container">
+    <h1 class="title text-4xl font-extrabold py-8">Biz qanday ishlaymiz?</h1>
     </div>
 </template>
 
@@ -12,6 +12,6 @@ export default {
 
 <style scoped>
 .main-content{
-    margin-top:20% ;
+    margin-top:14%;
 }
 </style>
