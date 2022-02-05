@@ -29,6 +29,10 @@ export default {
     return {
       counter: 1
     }
+  },
+
+  methods: {
+
   }
 }
 </script>
