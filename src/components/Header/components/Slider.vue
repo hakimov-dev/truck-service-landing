@@ -1,6 +1,23 @@
 <template>
-    <div>
-      <h1>This is Slider Component!</h1>
+    <div class="container">
+        <div class="slider">
+            <div class="slider-content">
+               <div class="slider-btns">
+                <button></button>
+                <button></button>
+              </div>
+            <h1>
+               {{counter}}
+            </h1>
+            </div>
+            <div class="slider-images">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div>
     </div>
 </template>
 
