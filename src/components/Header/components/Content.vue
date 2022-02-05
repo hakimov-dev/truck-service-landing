@@ -7,6 +7,11 @@
              <h1 class="text-6xl font-semibold">Yuklarmi?</h1>
              <h2 class="text-4xl font-semibold">Biz bila aloqaga chiqing</h2>
          </div>
+         <div class="content-2 w-2/6">
+             <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in facilisi praesent at magna. In pellentesque hac eget gravida egestas. Massa turpis </p>
+             <br>
+             <button class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></button>
+         </div>
       </div>
     </div>
 </template>
