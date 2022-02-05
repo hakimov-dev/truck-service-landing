@@ -3,8 +3,8 @@
         <div class="slider flex justify-between">
             <div class="slider-content">
                <div class="slider-btns">
-                <button><i class="fas fa-chevron-left"></i></button>
-                <button><i class="fas fa-chevron-right"></i></button>
+                <button @click="previous()"><i class="fas fa-chevron-left"></i></button>
+                <button @click="next()"><i class="fas fa-chevron-right"></i></button>
               </div>
             <h1 class="pt-16 text-center text-9xl">
                0{{counter}}
