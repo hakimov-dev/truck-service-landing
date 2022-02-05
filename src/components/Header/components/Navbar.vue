@@ -18,3 +18,6 @@ export default {
   name: 'Header'
 }
 </script>
+
+<style soped>
+</style>
