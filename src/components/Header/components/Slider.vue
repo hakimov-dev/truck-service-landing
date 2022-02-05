@@ -38,6 +38,10 @@ export default {
         const slider = document.querySelector('.slider')
         slider.style.marginLeft = '-1200px'
       }
+    },
+
+    next () {
+      
     }
   }
 }
