@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="slider">
+        <div class="slider flex justify-between">
             <div class="slider-content">
                <div class="slider-btns">
                 <button><i class="fas fa-chevron-left"></i></button>
@@ -10,7 +10,7 @@
                {{counter}}
             </h1>
             </div>
-            <div class="slider-images">
+            <div class="slider-images flex justify-between items-center overflow-hidden">
                 <img src="@/assets/img/slider-1.png" alt="">
                 <img src="@/assets/img/slider-2.png" alt="">
                 <img src="@/assets/img/slider-3.png" alt="">
@@ -35,6 +35,6 @@ export default {
 <style scoped>
 img{
    width: 580px;
-    height: 366px;
+    height: 350px;
 }
 </style>
