@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Main';
+    src: url('../fonts/Acumin-Pro.ttf');
+    }
+   *{
+     font-family: 'Main', sans-serif;
+   }
