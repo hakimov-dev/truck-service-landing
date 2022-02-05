@@ -10,7 +10,7 @@
          <div class="content-2 w-2/6">
              <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in facilisi praesent at magna. In pellentesque hac eget gravida egestas. Massa turpis </p>
              <br>
-             <button class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></button>
+             <a href="#contact" class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></a>
          </div>
       </div>
     </div>
