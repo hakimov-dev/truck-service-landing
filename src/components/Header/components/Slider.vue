@@ -33,10 +33,23 @@ export default {
 </script>
 
 <style scoped>
+button{
+    width: 65px;
+    height: 65px;
+    background: #F8FCFE;
+    margin: 0px 20px;
+    transition: all .3s linear;
+    border-radius: 10px;
+}
+
+button:hover, button:focus{
+     background: #DEF7FF;
+}
 img{
    width: 600px;
     height: 350px;
     margin: 0px 10px;
+    margin-bottom: 10px;
 }
 .slider-images{
     width: 1000px;
