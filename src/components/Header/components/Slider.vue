@@ -20,8 +20,8 @@
            </div>
         </div>
     </div>
-    <img src="@/assets/img/slider-bottom-1.png" alt="">
-    <img src="@/assets/img/slider-bottom-2.png" alt="">
+    <img class="slider-bottom-1" src="@/assets/img/slider-bottom-1.png" alt="">
+    <img class="slider-bottom-2" src="@/assets/img/slider-bottom-2.png" alt="">
 </template>
 
 <script>
@@ -57,6 +57,18 @@ export default {
 .slider{
     margin-top: 50px;
     margin-bottom: 20px;
+}
+.slider-bottom-1, .slider-bottom-2{
+  position: absolute;
+  right: -0px;
+}
+
+.slider-bottom-1{
+    z-index: -111;
+}
+.slider-bottom-2{
+    z-index: 111;
+    bottom: -30%;
 }
 button{
     width: 65px;
