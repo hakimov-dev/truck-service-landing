@@ -2,7 +2,7 @@
    <img src="@/assets/img/header-1.png" class="header-1" alt="404">
    <img src="@/assets/img/header-2.png" class="header-2" alt="404">
     <div class="container">
-      <div class="main-content">
+      <div class="main-content flex justify-between items-center">
          <div class="content-1">
              <h1 class="text-6xl font-semibold">Yuklarmi?</h1>
              <h2 class="text-4xl font-semibold">Biz bila aloqaga chiqing</h2>
