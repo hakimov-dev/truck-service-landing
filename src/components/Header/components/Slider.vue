@@ -53,7 +53,7 @@ export default {
 
 <style scoped>
 .slider{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 button{
@@ -77,7 +77,6 @@ img{
 .parrent{
     position: absolute;
     right: -0px;
-    bottom: 2%;
     width: 1000px;
     height: 350px;
     overflow: hidden;
