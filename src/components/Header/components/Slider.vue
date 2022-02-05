@@ -33,7 +33,11 @@ export default {
 
   methods: {
     previous () {
-
+      if (this.counter !== 1) {
+        this.counter--
+        const slider = document.querySelector('.slider')
+        slider.style.marginLeft = '-1200px'
+      }
     }
   }
 }
