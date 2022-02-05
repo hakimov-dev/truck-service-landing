@@ -24,4 +24,9 @@ export default {
       right: -0px;
       z-index: -1111;
   }
+
+  .content-1{
+      position: absolute;
+      top: 25%;
+  }
 </style>
