@@ -3,8 +3,8 @@
         <div class="slider">
             <div class="slider-content">
                <div class="slider-btns">
-                <button></button>
-                <button></button>
+                <button><i class="fas fa-chevron-right"></i></button>
+                <button><i class="fas fa-chevron-right"></i></button>
               </div>
             <h1>
                {{counter}}
