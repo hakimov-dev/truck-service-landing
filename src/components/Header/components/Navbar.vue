@@ -20,4 +20,10 @@ export default {
 </script>
 
 <style soped>
+ .links{
+     color: #113873;
+     font-size: 16px;
+     letter-spacing: -0.035em;
+     font-weight: normal;
+ }
 </style>
