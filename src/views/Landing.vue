@@ -1,5 +1,5 @@
 <template>
-<h1>Hello world!</h1>
+<h1 class="text-3xl underline">Hello world</h1>
 </template>
 
 <script>
