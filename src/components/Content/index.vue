@@ -9,6 +9,10 @@
 
 <script>
 import Card from './components/Card'
+import card1 from './assets/img/card-1.png'
+import card2 from './assets/img/card-2.png'
+import card3 from './assets/img/card-3.png'
+import card4 from './assets/img/card-4.png'
 export default {
   name: 'Content',
   components: {
@@ -19,7 +23,7 @@ export default {
     return {
       cards: [
         {
-          img: '@/assets/img/card-1',
+          img: '@/assets/img/card-1.png',
           title: 'Biz og’ir yuklaringizni olamiz',
           body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in facilisi praesent at magna. In pellentesque hac eget gravida'
         },
