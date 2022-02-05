@@ -2,4 +2,9 @@
   <router-view/>
 </template>
 
-<style></style>
+<style>
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+</style>
