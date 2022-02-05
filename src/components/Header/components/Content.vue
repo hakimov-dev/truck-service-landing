@@ -3,7 +3,9 @@
    <img src="@/assets/img/header-2.png" class="header-2" alt="404">
     <div class="container">
       <div class="main-content">
-         
+         <div class="content-1">
+             
+         </div>
       </div>
     </div>
 </template>
