@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="main-content">
       <h1>This is Content component!</h1>
     </div>
 </template>
@@ -10,4 +10,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.main-content{
+    margin-top:20% ;
+}
+</style>
