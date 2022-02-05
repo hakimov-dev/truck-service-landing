@@ -23,7 +23,12 @@
 
 <script>
 export default {
-  name: 'slider'
+  name: 'slider',
+  data () {
+    return {
+      counter: 0
+    }
+  }
 }
 </script>
 
