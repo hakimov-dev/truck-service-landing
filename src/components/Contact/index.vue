@@ -1,5 +1,5 @@
 <template>
-    <div class="container flex justify-between items-center py-24">
+    <div id="contact" class="container flex justify-between items-center py-24">
        <TextContent />
        <Form />
     </div>
