@@ -19,4 +19,17 @@ export default {
   .container{
       margin-top: 10%;
   }
+  .content-2{
+    margin-top: -60%;
+    margin-left: -10%;
+    position: absolute;
+    z-index: -111;
+  }
+
+  .content-3{
+      margin-top: -8%;
+      margin-left: 30%;
+      position: absolute;
+      z-index: -111;
+  }
 </style>
