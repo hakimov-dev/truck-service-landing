@@ -35,3 +35,17 @@ export default {
   }
 }
 </script>
+
+<style>
+.reveal {
+  position: relative;
+  transform: translateY(120px);
+  opacity: 0;
+  transition: all 3s ease
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+</style>
