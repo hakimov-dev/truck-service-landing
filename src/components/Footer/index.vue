@@ -31,12 +31,17 @@
               </div>
           </div>
        </div>
+       <FooterEnd />
     </footer>
 </template>
 
 <script>
+import FooterEnd from './components/FooterEnd'
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  components: {
+    FooterEnd
+  }
 }
 </script>
 
