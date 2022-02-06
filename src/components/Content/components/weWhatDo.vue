@@ -3,7 +3,7 @@
      <img class="cardsBottom2" src="@/assets/img/cards-bottom1-2.png" alt="">
      <img class="cardsBottom3" src="@/assets/img/cards-bottom3.png" alt="">
     </div>
-    <div class="container" id="weWhatDo">
+    <div class="container flex justify-between items-center" id="weWhatDo">
       <div class="content-1 w-3/5">
           <span class="text-2xl">UMUMAN OLGANDA</span>
           <h1 class="text-6xl font-bold">Biz nima qilamiz?</h1>
