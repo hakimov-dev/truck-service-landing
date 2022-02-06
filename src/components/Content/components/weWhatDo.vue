@@ -32,6 +32,10 @@ export default {
     right: -0px;
     z-index: -111;
    }
+
+   span{
+    margin-bottom: 30px;
+   }
    .cardsBottom2{
        position: absolute;
        left: -0px;
