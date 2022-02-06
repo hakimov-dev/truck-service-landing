@@ -9,7 +9,6 @@
           <h1>Biz nima qilamiz?</h1>
           <br>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque pellentesque cursus arcu tincidunt nam. Dignissim nec nec facilisis vel, elit, purus fermentum. Cras metus, egestas tortor, nisi, at est facilisis ac feugiat. Eu.</p>
-          <br>
           <button class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></button>
       </div>
       <div class="content-2"></div>
@@ -33,5 +32,21 @@ export default {
        width: 300px;
        object-fit: cover;
        object-position: center center;
+   }
+   .container{
+       margin-top: 30%;
+   }
+   .content-1{
+       margin-bottom: 20px;
+       width: 710px;
+       height: 545px;
+       background: #F5F9FF;
+       padding: 60px;
+       padding-top: 120px;
+       margin-left: -30px;
+   }
+
+   .main-btn{
+       margin-top: 30px;
    }
 </style>
