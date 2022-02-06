@@ -52,10 +52,19 @@ export default {
       padding: 20px !important;
       font-size: 16px;
       height: 150px;
+      resize: none;
   }
 
   button{
       margin-bottom: -2%;
       margin-right: 10%;
   }
+
+  input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+   }
+
 </style>
