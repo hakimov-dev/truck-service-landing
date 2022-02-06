@@ -25,7 +25,7 @@ export default {
       text-align: center;
       padding: 80px 0px;
       position: absolute;
-      right: 6%;
+      right: 3%;
   }
 
   input, textarea{
