@@ -9,7 +9,8 @@
           <h1 class="text-6xl font-bold">Biz nima qilamiz?</h1>
           <br>
           <p class="leading-8 text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque pellentesque cursus arcu tincidunt nam. Dignissim nec nec facilisis vel, elit, purus fermentum. Cras metus, egestas tortor, nisi, at est facilisis ac feugiat. Eu.</p>
-          <button class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></button>
+         <br><br>
+          <a href="#contact" class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></a>
       </div>
       <div class="content-2"></div>
     </div>
@@ -34,7 +35,7 @@ export default {
        object-position: center center;
    }
    .container{
-       margin-top: 30%;
+       margin-top: 25%;
    }
    .content-1{
        margin-bottom: 20px;
@@ -46,7 +47,4 @@ export default {
        margin-left: -30px;
    }
 
-   .main-btn{
-       margin-top: 30px;
-   }
 </style>
