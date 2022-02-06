@@ -33,6 +33,16 @@ export default {
     z-index: -111;
   }
 
+.content2{
+       margin-bottom: 20px;
+      width: 730px;
+      height: 636px;
+       background: #F5F9FF;
+       padding: 60px;
+       padding-top: 120px;
+       margin-right: -33px;
+  }
+
   .content-3{
       margin-top: -8%;
       margin-left: 30%;
