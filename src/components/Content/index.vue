@@ -4,15 +4,17 @@
     <div class="cards flex justify-between items-center py-8">
      <Card class="w-3/12" :card="card" v-for="(card, idx) in cards" :key="idx"/>
     </div>
+      <weWhatDo />
     </div>
 </template>
 
 <script>
 import Card from './components/Card'
+import weWhatDo from './components/weWhatDo'
 export default {
   name: 'Content',
   components: {
-    Card
+    Card, weWhatDo
   },
 
   data () {
