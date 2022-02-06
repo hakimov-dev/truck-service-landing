@@ -1,5 +1,5 @@
 <template>
-    <div class="container flex justify-between items-center" id="about">
+    <div class="reveal container flex justify-between items-center" id="about">
          <div class="content1">
            <img class="content-1" src="@/assets/img/content-2.1.png" alt="">
            <img class="content-2" src="@/assets/img/content-2.2.png" alt="">

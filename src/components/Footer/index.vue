@@ -1,6 +1,6 @@
 <template>
     <footer>
-       <div class="container pb-8 flex justify-between items-center">
+       <div class="container reveal pb-8 flex justify-between items-center">
           <div class="contents w-3/4">
                 <div class="content flex flex-col">
                    <h1 class="py-4 text-4xl  font-bold">Logo</h1>
