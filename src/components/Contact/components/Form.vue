@@ -5,7 +5,7 @@
      <label for="phone">Telefon raqam</label>
      <input type="number" id="phone" placeholder="Telefon raqamingizni kiriting">
      <label for="message">Qo’shimcha xabar (Ixtiyoriy)</label>
-     <textarea id="message" cols="30" rows="10"></textarea>
+     <textarea placeholder="Xabaringizni kiriting" id="message" cols="30" rows="10"></textarea>
      <button class="main-btn w-2/12 m-auto">Jo’natish</button>
     </form>
 </template>
@@ -19,7 +19,8 @@ export default {
 <style scoped>
   form{
       width:620px;
-      height: 683px;
+      height: 660px;
+      margin-bottom: 9% !important;
       background: #D8E7FF;
       text-align: center;
       padding: 80px 0px;
@@ -41,10 +42,20 @@ export default {
  }
 
   input{
-      padding: 10px;
+      padding: 20px;
+  }
+
+  input::placeholder, textarea::placeholder{
+      color: #2C3178;
   }
   textarea{
       padding: 20px !important;
       font-size: 16px;
+      height: 150px;
+  }
+
+  button{
+      margin-bottom: -2%;
+      margin-right: 10%;
   }
 </style>
