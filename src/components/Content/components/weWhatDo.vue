@@ -4,7 +4,8 @@
      <img class="cardsBottom3" src="@/assets/img/cards-bottom3.png" alt="">
     </div>
     <div class="container" id="weWhatDo">
-      <h1>This is weWhatDo component.</h1>
+      <div class="content-1"></div>
+      <div class="content-2"></div>
     </div>
 </template>
 
