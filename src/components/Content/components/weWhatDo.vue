@@ -1,7 +1,6 @@
 <template>
     <div class="img-container">
-     <!-- <img class="cardsBottom1" src="@/assets/img/cards-bottom1.png" alt=""> -->
-     <!-- <img class="cardsBottom2" src="@/assets/img/cards-bottom2.png" alt=""> -->
+     <img class="cardsBottom2" src="@/assets/img/cards-bottom1-2.png" alt="">
      <img class="cardsBottom3" src="@/assets/img/cards-bottom3.png" alt="">
     </div>
     <div class="container" id="weWhatDo">
