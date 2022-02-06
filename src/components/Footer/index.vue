@@ -39,5 +39,7 @@ export default {
 </script>
 
 <style scoped>
-   
+  .content1:nth-child(3) h2{
+     margin-top:20px ;
+  }
 </style>
