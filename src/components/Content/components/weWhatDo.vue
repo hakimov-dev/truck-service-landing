@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
   .cardsBottom3{
-      margin-top: 23%;
+      margin-top: 15%;
     position: absolute;
     right: -0px;
     z-index: -111;
@@ -40,7 +40,7 @@ export default {
        object-position: center center;
    }
    .container{
-       margin-top: 25%;
+       margin-top: 20%;
    }
    .content-1{
        margin-bottom: 20px;
