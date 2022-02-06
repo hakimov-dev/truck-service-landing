@@ -5,7 +5,14 @@
            <img class="content-2" src="@/assets/img/content-2.2.png" alt="">
            <img class="content-3" src="@/assets/img/content-2.3.png" alt="">
          </div>
-         <div class="content2"></div>
+         <div class="content2 w-3/5">
+          <span class="text-2xl">QISQACHA</span>
+           <h1 class="text-6xl font-bold">Biz haqimizda</h1>
+          <br>
+           <p class="leading-8 text-left w-3/5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque pellentesque cursus arcu tincidunt nam. Dignissim nec nec facilisis vel, elit, purus fermentum. Cras metus, egestas tortor, nisi, at est facilisis ac feugiat. Eu.</p>
+          <br><br>
+           <a href="#contact" class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></a>
+         </div>
     </div>
 </template>
 
