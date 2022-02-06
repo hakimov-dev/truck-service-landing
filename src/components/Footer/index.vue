@@ -22,9 +22,11 @@
               </div>
               <div class="content1 flex flex-col leading-8">
                   <h1 class="title font-bold">Til <i class="fas fa-angle-down"></i></h1>
-                  <h2>Ijtimoiy tarmoqlarimiz</h2>
-                  <div class="flex">
-                      <!-- hueiwfhwiu wbfuweifwhufew fhewio -->
+                  <h2 class="pb-2">Ijtimoiy tarmoqlarimiz</h2>
+                  <div class="flex justify-around items-center">
+                      <a href="#"><img src="@/assets/img/social1.png" alt=""></a>
+                      <a href="#"><img src="@/assets/img/social2.png" alt=""></a>
+                      <a href="#"><img src="@/assets/img/social3.png" alt=""></a>
                   </div>
               </div>
           </div>
