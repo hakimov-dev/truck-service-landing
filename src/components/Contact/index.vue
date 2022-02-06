@@ -1,12 +1,16 @@
 <template>
     <div class="container">
-       <h1>This is Contact component!</h1>
+       <TextContent />
     </div>
 </template>
 
 <script>
+import TextContent from './components/TexContent'
 export default {
-  name: 'Contact'
+  name: 'Contact',
+  components: {
+    TextContent
+  }
 }
 </script>
 
