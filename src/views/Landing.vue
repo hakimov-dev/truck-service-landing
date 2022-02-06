@@ -16,6 +16,22 @@ export default {
   name: 'Landing',
   components: {
     Header, Content, About, Contact, Footer
+  },
+
+  created () {
+    window.addEventListener('scroll', () => {
+      const reveals = document.querySelectorAll('.reveal')
+
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight
+        const revealTop = reveals[i].getBoundingClientRect().top
+        const revealPoint = 50
+
+        if (revealTop < windowHeight - revealPoint) {
+          reveals[i].classList.add('active')
+        }
+      }
+    })
   }
 }
 </script>
