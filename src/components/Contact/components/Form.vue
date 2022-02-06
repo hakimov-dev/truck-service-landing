@@ -3,9 +3,10 @@
      <label for="name">Ism, Familya</label>
      <input type="text" id="name" placeholder="To’liq ismingizni kiriting">
      <label for="phone">Telefon raqam</label>
-     <input type="phone" placeholder="Telefon raqamingizni kiriting">
+     <input type="number" id="phone" placeholder="Telefon raqamingizni kiriting">
      <label for="message">Qo’shimcha xabar (Ixtiyoriy)</label>
      <textarea id="message" cols="30" rows="10"></textarea>
+     <button class="main-btn w-2/12 m-auto">Jo’natish</button>
     </form>
 </template>
 
