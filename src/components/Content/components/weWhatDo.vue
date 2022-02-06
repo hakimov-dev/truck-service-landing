@@ -5,10 +5,10 @@
     </div>
     <div class="container" id="weWhatDo">
       <div class="content-1 w-3/5">
-          <span>UMUMAN OLGANDA</span>
-          <h1>Biz nima qilamiz?</h1>
+          <span class="text-2xl">UMUMAN OLGANDA</span>
+          <h1 class="text-6xl font-bold">Biz nima qilamiz?</h1>
           <br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque pellentesque cursus arcu tincidunt nam. Dignissim nec nec facilisis vel, elit, purus fermentum. Cras metus, egestas tortor, nisi, at est facilisis ac feugiat. Eu.</p>
+          <p class="leading-8 text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque pellentesque cursus arcu tincidunt nam. Dignissim nec nec facilisis vel, elit, purus fermentum. Cras metus, egestas tortor, nisi, at est facilisis ac feugiat. Eu.</p>
           <button class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></button>
       </div>
       <div class="content-2"></div>
