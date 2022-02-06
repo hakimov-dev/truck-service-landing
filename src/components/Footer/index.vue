@@ -7,20 +7,20 @@
                    <p class="w-2/6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in integer faucibus nisl. Gravida pellentesque cras proin accumsan. Massa at ut et dui viverra id turpis.</p>
                 </div>
           </div>
-          <div class="contents flex justify-between items-center w-full">
-              <div class="content flex flex-col leading-8">
+          <div class="contents1 flex justify-between items-center w-full">
+              <div class="content1 flex flex-col leading-8">
                   <h1 class="title font-bold">Hususiyatlar</h1>
                   <a href="#" class="footer-link">Servislar</a>
                   <a href="#" class="footer-link">Aloqa</a>
                   <a href="#" class="footer-link">Narh</a>
               </div>
-              <div class="content flex flex-col leading-8">
+              <div class="content1 flex flex-col leading-8">
                   <h1 class="title font-bold">Biz haqimizda</h1>
                   <a href="#" class="footer-link">Kariyera</a>
                   <a href="#" class="footer-link">Biz nima qilamiz</a>
                   <a href="#" class="footer-link">FAQ</a>
               </div>
-              <div class="content flex flex-col leading-8">
+              <div class="content1 flex flex-col leading-8">
                   <h1 class="title font-bold">Til <i class="fas fa-angle-down"></i></h1>
                   <h2>Ijtimoiy tarmoqlarimiz</h2>
                   <div class="flex">
@@ -39,5 +39,5 @@ export default {
 </script>
 
 <style scoped>
-
+   
 </style>
