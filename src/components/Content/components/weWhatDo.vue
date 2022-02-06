@@ -14,5 +14,17 @@ export default {
 </script>
 
 <style scoped>
-
+   .cardsBottom1, .cardsBottom2, .cardsBottom3{
+    position: absolute;
+   }
+   .cardsBottom1, .cardsBottom2{
+       left: -0px;
+   }
+   .cardsBottom2{
+     top: 20%;
+     z-index: 11111;
+   }
+   .cardsBottom3{
+       right: -0px;
+   }
 </style>
