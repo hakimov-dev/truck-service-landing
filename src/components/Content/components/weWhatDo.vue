@@ -1,7 +1,7 @@
 <template>
     <div class="img-container">
-     <img class="cardsBottom1" src="@/assets/img/cards-bottom1.png" alt="">
-     <img class="cardsBottom2" src="@/assets/img/cards-bottom2.png" alt="">
+     <!-- <img class="cardsBottom1" src="@/assets/img/cards-bottom1.png" alt=""> -->
+     <!-- <img class="cardsBottom2" src="@/assets/img/cards-bottom2.png" alt=""> -->
      <img class="cardsBottom3" src="@/assets/img/cards-bottom3.png" alt="">
     </div>
     <div class="container" id="weWhatDo">
@@ -23,7 +23,7 @@ export default {
        left: -0px;
    }
    .cardsBottom2{
-     top: 20%;
+     top: 120% !important;
      z-index: 11111;
    }
    .cardsBottom3{
