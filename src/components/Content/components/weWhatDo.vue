@@ -11,6 +11,7 @@
           <p class="leading-8 text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque pellentesque cursus arcu tincidunt nam. Dignissim nec nec facilisis vel, elit, purus fermentum. Cras metus, egestas tortor, nisi, at est facilisis ac feugiat. Eu.</p>
          <br><br>
           <a href="#contact" class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></a>
+          
       </div>
       <div class="content-2">
           <img src="@/assets/img/content-2.png" alt="">
