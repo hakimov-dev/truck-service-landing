@@ -2,11 +2,15 @@
   "name": "truck-service",
   "version": "0.1.0",
   "private": true,
+  "description": "## Project setup ``` npm install ```",
+  "author": "Hakimov-dev",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
+  "main": "babel.config.js",
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.17",
     "autoprefixer": "^9.8.8",
@@ -14,10 +18,12 @@
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "vue": "^3.0.0",
+    "vue-i18n": "^9.1.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@intlify/vue-i18n-loader": "^3.0.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
@@ -31,7 +37,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "vue-cli-plugin-i18n": "~2.3.1"
   },
   "eslintConfig": {
     "root": true,
@@ -52,16 +59,13 @@
     "last 2 versions",
     "not dead"
   ],
-  "description": "## Project setup ``` npm install ```",
-  "main": "babel.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hakimov-dev/truck-service-landing.git"
-  },
-  "author": "Hakimov-dev",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/hakimov-dev/truck-service-landing/issues"
   },
-  "homepage": "https://github.com/hakimov-dev/truck-service-landing#readme"
+  "homepage": "https://github.com/hakimov-dev/truck-service-landing#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakimov-dev/truck-service-landing.git"
+  }
 }
