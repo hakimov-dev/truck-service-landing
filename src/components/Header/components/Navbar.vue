@@ -9,6 +9,7 @@
            <a href="#about" class="link">Biz haqimizda</a>
            <a href="#contact" class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></a>
        </div>
+       <img class="menu md:hidden w-1/8" src="@/assets/icons/menu.png"/>
     </div>
     </div>
 </template>
