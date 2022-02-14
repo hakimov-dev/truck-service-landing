@@ -1,7 +1,9 @@
 <template>
+      <div class="h-screen">
        <Navbar/>
        <Content/>
        <Slider/>
+      </div>
 </template>
 
 <script>
