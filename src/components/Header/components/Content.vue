@@ -1,6 +1,6 @@
 <template>
-   <img src="@/assets/img/header-1.png" class="header-1" alt="404">
-   <img src="@/assets/img/header-2.png" class="header-2" alt="404">
+   <img src="@/assets/img/header-1.png" class="md:flex hidden header-1" alt="404">
+   <img src="@/assets/img/header-2.png" class="md:flex hidden header-2" alt="404">
     <div class="container">
       <div class="main-content flex justify-between items-center">
          <div class="content-1">
