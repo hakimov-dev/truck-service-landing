@@ -26,6 +26,10 @@ export default {
     return {
       sideNav: false
     }
+  },
+
+  methods: {
+
   }
 }
 </script>
