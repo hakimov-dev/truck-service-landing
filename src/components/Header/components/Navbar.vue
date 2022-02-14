@@ -29,7 +29,9 @@ export default {
   },
 
   methods: {
+    openSidenav () {
 
+    }
   }
 }
 </script>
