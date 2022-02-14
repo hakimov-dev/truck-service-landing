@@ -11,14 +11,17 @@
        </div>
        <img @click="openSidenav()" class="menu md:hidden" src="@/assets/icons/menu.png"/>
     </div>
+    <MobileNavVue />
     </div>
 </template>
 
 <script>
-import sideBar from './MobileNav.vue'
+import MobileNavVue from './MobileNav.vue'
 export default {
   name: 'Navbar',
-  components: [sideBar]
+  components: {
+    MobileNavVue
+  }
 }
 </script>
 
