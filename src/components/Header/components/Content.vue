@@ -13,7 +13,7 @@
              <a href="#contact" class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></a>
          </div>
       </div>
-       <img src="@/assets/img/slider-1.png" alt="">
+       <img src="@/assets/img/slider-1.png" class="absolute top-3/4 right-0 left-0 w-11/12 mx-auto" alt="">
     </div>
 </template>
 
