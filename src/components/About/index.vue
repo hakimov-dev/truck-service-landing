@@ -1,5 +1,6 @@
 <template>
-    <div class="reveal container flex justify-between items-center" id="about">
+  <div class="md:block hidden">
+        <div class="reveal container flex justify-between items-center" id="about">
          <div class="content1">
            <img class="content-1" src="@/assets/img/content-2.1.png" alt="">
            <img class="content-2" src="@/assets/img/content-2.2.png" alt="">
@@ -14,6 +15,7 @@
            <a href="#contact" class="main-btn">Aloqaga chiqish <i class="fas fa-chevron-right"></i></a>
          </div>
     </div>
+  </div>
 </template>
 
 <script>
