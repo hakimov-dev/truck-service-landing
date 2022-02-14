@@ -24,8 +24,9 @@ export default {
   },
   data () {
     return {
+      sideNav: false
     }
-  },
+  }
 }
 </script>
 
