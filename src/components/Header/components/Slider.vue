@@ -20,8 +20,8 @@
            </div>
         </div>
     </div>
-    <img class="slider-bottom-1" src="@/assets/img/slider-bottom-1.png" alt="">
-    <img class="slider-bottom-2" src="@/assets/img/slider-bottom-2.png" alt="">
+    <img class="md:flex hidden slider-bottom-1" src="@/assets/img/slider-bottom-1.png" alt="">
+    <img class="md:flex hidden slider-bottom-2" src="@/assets/img/slider-bottom-2.png" alt="">
 </template>
 
 <script>
