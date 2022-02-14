@@ -11,7 +11,7 @@
        </div>
        <img @click="openSidenav()" class="menu md:hidden" src="@/assets/icons/menu.png"/>
     </div>
-    <MobileNavVue />
+    <MobileNavVue v-if="sideNav"/>
     </div>
 </template>
 
