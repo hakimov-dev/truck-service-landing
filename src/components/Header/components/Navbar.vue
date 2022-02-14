@@ -21,7 +21,11 @@ export default {
   name: 'Navbar',
   components: {
     MobileNavVue
-  }
+  },
+  data () {
+    return {
+    }
+  },
 }
 </script>
 
