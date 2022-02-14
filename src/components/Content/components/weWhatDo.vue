@@ -1,5 +1,6 @@
 <template>
-    <div class="img-container">
+  <div class="md:block hidden">
+          <div class="img-container">
      <img class="cardsBottom2" src="@/assets/img/cards-bottom1-2.png" alt="">
      <img class="cardsBottom3" src="@/assets/img/cards-bottom3.png" alt="">
     </div>
@@ -17,6 +18,7 @@
           <img src="@/assets/img/content-2.png" alt="">
       </div>
     </div>
+  </div>
 </template>
 
 <script>
