@@ -30,7 +30,7 @@ export default {
 
   methods: {
     openSidenav () {
-
+      this.sideNav = !this.sideNav
     }
   }
 }
