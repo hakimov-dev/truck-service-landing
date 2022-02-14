@@ -15,8 +15,10 @@
 </template>
 
 <script>
+import sideBar from './MobileNav.vue'
 export default {
-  name: 'Navbar'
+  name: 'Navbar',
+  components: [sideBar]
 }
 </script>
 
