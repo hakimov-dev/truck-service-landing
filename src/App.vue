@@ -7,6 +7,10 @@
   color: #2c3178;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .container{
   width: 90%;
   margin: 0 auto;
