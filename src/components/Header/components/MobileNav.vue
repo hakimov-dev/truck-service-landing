@@ -1,5 +1,5 @@
 <template>
-    <div class="sidenav">
+    <div class="sidenav md:hidden">
      <a href="#weWork" class="link">Biz qanday ishlaymiz</a>
      <a href="#weWhatDo" class="link">Biz nima qilamiz</a>
      <a href="#contact" class="link">Aloqa</a>
