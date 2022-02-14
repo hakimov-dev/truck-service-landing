@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="slider flex justify-between">
+        <div class="slider hidden justify-between md:flex">
             <div class="slider-content">
                <div class="slider-btns">
                 <button @click="previous()"><i class="fas fa-chevron-left"></i></button>
