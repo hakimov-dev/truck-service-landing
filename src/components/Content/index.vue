@@ -1,8 +1,8 @@
 <template>
     <div id="weWork" class="reveal main-content container">
     <h1 class="title text-4xl font-extrabold py-8">Biz qanday ishlaymiz?</h1>
-    <div class="cards flex justify-between items-center py-8">
-     <Card class="w-3/12" :card="card" v-for="(card, idx) in cards" :key="idx"/>
+    <div class="cards flex justify-between items-center py-8 md:flex-row flex-col">
+     <Card class="md:w-3/12 w-11/12 py-4" :card="card" v-for="(card, idx) in cards" :key="idx"/>
     </div>
       <weWhatDo />
     </div>
