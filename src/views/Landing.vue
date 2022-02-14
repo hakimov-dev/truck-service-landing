@@ -1,9 +1,11 @@
 <template>
+  <div class="w-11/12 md:w-full mx-auto overflow-hidden">
    <Header />
    <Content />
    <About />
    <Contact />
    <Footer />
+  </div>
 </template>
 
 <script>
